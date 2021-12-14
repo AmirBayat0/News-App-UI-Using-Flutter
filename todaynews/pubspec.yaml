@@ -1,0 +1,45 @@
+name: todaynews
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  get:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/card.png
+    - assets/newyorkTimes.png
+    - assets/featured.jpg
+    - assets/hotbundel.jpg
+    - assets/news.jpg
+    - assets/sport.jpg
+    - assets/tec.jpg
+    - assets/Politics.jpg
+    - assets/brekingnews.jpg
+    - assets/foxnews.png
+    - assets/bbc.png
+    - assets/yahoonews.jpg
+    - assets/cnn.png
+  # fonts:
+  #   - family: NewRocker
+  #     fonts:
+  #       - asset: fonts/NewRocker-Regular.ttf
